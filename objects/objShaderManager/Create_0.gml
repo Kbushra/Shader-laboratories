@@ -1,3 +1,5 @@
+//application_surface_draw_enable(false);
+
 global.shaders[0] = shMonotone;
 global.shaders[1] = shShifted;
 global.shaders[2] = shDiagBlur;
@@ -14,3 +16,5 @@ shiftDir = 1;
 waveOffset = 0;
 
 splitMagnifier = 1;
+
+vBuffer = newScreenVertices(0);

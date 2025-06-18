@@ -11,7 +11,7 @@ verticalChecks();
 
 if !visible { exit; }
 
-var spd = 3;
+var spd = 4;
 hMovement = lerp(hMovement, (global.r - global.l)*spd, 0.2);
 	
 if hMovement != 0 && place_free(x+hMovement, y) { x += hMovement; }

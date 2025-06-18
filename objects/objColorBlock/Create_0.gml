@@ -1,5 +1,4 @@
 if color == "random" { color = choose("red", "blue", "yellow", "green", "purple", "cyan"); }
-show_debug_message(color);
 
 switch color
 {
